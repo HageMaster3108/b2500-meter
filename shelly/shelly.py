@@ -54,10 +54,10 @@ class Shelly:
             "src": self._device_id,
             "dst": "unknown",
             "result": {
-                "a_act_power": a,
-                "b_act_power": b,
-                "c_act_power": c,
-                "total_act_power": total_act_power,
+                "a_act_power": -a,
+                "b_act_power": -b,
+                "c_act_power": -c,
+                "total_act_power": -total_act_power,
             },
         }
 
