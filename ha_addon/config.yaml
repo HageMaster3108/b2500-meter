@@ -7,8 +7,8 @@ arch:
   - amd64
   - aarch64
   - armv7
-url: "https://github.com/tomquist/b2500-meter"
-image: "ghcr.io/tomquist/b2500-meter-addon"
+url: "https://github.com/HageMaster3108/b2500-meter"
+image: "ghcr.io/HageMaster3108/b2500-meter-addon"
 panel_icon: "mdi:meter-electric"
 init: false
 startup: application
